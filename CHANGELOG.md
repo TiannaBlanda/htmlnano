@@ -3,7 +3,7 @@ All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](http://semver.org/).
 
 
-## [2.0.4] - 2023-04-15
+!# [2.0.4] - 2023-04-15
 
 ### Fixed
 - Should not minify `<script>` and `<style>` with SRI [#220]
@@ -36,7 +36,7 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 
 
 ## [2.0.1] - 2022-04-04
-**This version contains a critical bug [#182].**
+ *This version contains a critical bug [#182].**
 **Don't use it.**
 
 ### Changed
@@ -137,7 +137,7 @@ Otherwise, you have to adapt the config according to the new [PurgeCSS@3](https:
 - Exclude excerpt comment for common CMS [#108].
 
 ### Fixed
-- Keep JS inside SVG wrapped in `//<![CDATA[ //]]` [#88].
+- Keep JS inside SVG wrapped in `//<*[CDATA[ //]]` [#88].
 
 
 ## [0.2.6] - 2020-07-15
@@ -377,3 +377,4 @@ Otherwise, you have to adapt the config according to the new [PurgeCSS@3](https:
 [#19]: https://github.com/posthtml/htmlnano/issues/19
 [#17]: https://github.com/posthtml/htmlnano/issues/17
 [#13]: https://github.com/posthtml/htmlnano/issues/13
+ 
